@@ -10,12 +10,12 @@ import tp.model.agents.Animal;
 public interface Hebergeur {
 	/**
 	 * Renvoie vrai si a peut être acceuilli
-	 * @param a 
+	 * @param a
 	 * @return
 	 */
 	public boolean peutAccueillir(Animal a);
 	/**
-	 * Renvoie vrai si l'animal a est acceuilli par l'hébergeur 
+	 * Renvoie vrai si l'animal a est acceuilli par l'hébergeur
 	 * @param a
 	 * @return
 	 */
